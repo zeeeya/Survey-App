@@ -59,16 +59,17 @@
         <hr class="star-primary">
         <br>
         <div class="container" style="width: 5in">
-          <form role="form">
+          <form action="php/cust_signup.php?user_type=participant" method="post">
+            <?php $_POST['user_type'] = "participant"?>
                 <div class="row">
                   <div class="col-xs-6 col-sm-6 col-md-6">
                     <div class="form-group">
-                      <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="First Name">
+                      <input type="text" name="firstname" for="firstname" class="form-control input-sm" placeholder="First Name">
                     </div>
                   </div>
                   <div class="col-xs-6 col-sm-6 col-md-6">
                     <div class="form-group">
-                      <input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name">
+                      <input type="text" name="last_name" class="form-control input-sm" placeholder="Last Name">
                     </div>
                   </div>
                 </div>

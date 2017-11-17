@@ -77,7 +77,7 @@
       <div class="container">
         <a href="survey.php" ><img class="img-fluid" src="img/survey.png" title="click the icon to begin survey" alt=""></a>
         <div class="intro-text">
-          <span class="name">&#8679;</span>
+          <!--<span class="name">&#8679;</span>-->
           <span class="name">Start Survey</span>
           <hr class="star-light">
           <span class="skills">SurveyApp.com</span>
