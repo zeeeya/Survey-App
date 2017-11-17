@@ -59,7 +59,7 @@
         <hr class="star-primary"> 
         
         <div class="container" style="width: 5in">
-          <form role="form">
+          <form action="index.php" method="post">
             <h5>Thank you for visiting Survey-App.</h5>
             <p style="font-size: 15px">To help us maintain a high quality of service, please provide us with feedback by filling in the information below.</p>
             <hr style="height: 1px">
@@ -138,10 +138,11 @@
                 </label>
                 </div>
                 </div>
-
-
-                
-                  
+                <hr style="height: 1px">
+                <div class="form-group">
+                  <span>Comments or Suggestions</span>
+                  <textarea type="text" name="text" id="text" class="form-control input-sm"> </textarea>
+                </div>
                 
                 <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton" style="cursor: pointer;">OK</button>
               
